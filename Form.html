@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,
+maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="Form.css">
+<title>Form Validation Project</title>
+</head>
+<body>
+    <form id="form" name="myform" class="formclass" method="POST" action="Accept.html"> 
+        <fieldset class="formset">
+            <legend> Sign-Up Form</legend>
+            <div class="form-control">
+                <label for="firstname">First Name</label> 
+                <input type="text" name="firstname" id="firstname" placeholder="Your first name">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for='middlename'>Middle Name</label>
+                <input type="text" name="middlename" id="middlename" placeholder="Your middle name">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Your Last name">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="userphone">Telephone Number</label>
+                <input type="tel" name="userphone" id="userphone" placeholder="Phone Number">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="useremail"> Email Information</label>
+                <input type="email" id="useremail" placeholder="Valid Email" name="useremail">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password"> Create Password</label>
+                <input type="password" placeholder="Password" id="password" name="password">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2"> Confirm Password</label>
+                <input  type="password" placeholder="Re-enter Password" id="password2">
+                <small>Error message</small>
+            </div>
+            <button type="submit">Submit</button>
+        </fieldset>   
+    </form>
+    <script src="Form.js"></script>
+</body>
+</html>
